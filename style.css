@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(214,214,214);
+}
+.con{
+   width: 350px;
+   height: 360px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+padding: 20px;
+text-align: center;
+
+}
+
+.button{
+    width: 44px;
+    height:44px;
+    border-radius: 10%;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+margin: 10px 20px 10px 5px;
+background-color: white ;
+
+}
+
+
+.sbutton{
+    width: 44px;
+    height:44px;
+    border-radius: 10%;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+margin: 10px 20px 10px 5px;
+background-color: red;
+}
+
+
+.mbutton{
+    width: 44px;
+    height:44px;
+    border-radius: 10%;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+margin: 10px 20px 10px 5px;
+background-color: black;
+color: white;
+}
+
+.serach{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+   height: 20px;
+   outline: none;
+   padding: 15px;
+   box-shadow: inset 2px 2px 5px white inset -5px -5px 10px white;
+}
+
+.button:hover{
+    width: 44px;
+    height:44px;
+    border-radius: 10%;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+margin: 10px 20px 10px 5px;
+background-color: orange ;
+border: 2px slid grey;
+}
+
+
+.sbutton:hover{
+    width: 44px;
+    height:44px;
+    border-radius: 10%;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+margin: 10px 20px 10px 5px;
+background-color: white;
+
+}
+
